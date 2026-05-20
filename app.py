@@ -166,67 +166,60 @@ st.markdown("""
 left, right = st.columns([1.2, 1])
 
 with left:
-    st.markdown("""
-<div class="hero">
-    <div class="title">
-        Green Future School
-    </div>
+    st.markdown('<div class="hero">', unsafe_allow_html=True)
 
-    <p class="subtitle">
-        Modern education for a new generation
-        with creativity, innovation and technology.
-    </p>
-</div>
-""", unsafe_allow_html=True)
+    st.title("Green Future School")
+
+    st.write(
+        "Modern education for a new generation "
+        "with creativity, innovation and technology."
+    )
+
+    st.markdown('</div>', unsafe_allow_html=True)
 
 with right:
-    st.markdown('<div class="hero-img">', unsafe_allow_html=True)
-
     st.image(
         "https://images.unsplash.com/photo-1509062522246-3755977927d7",
         use_container_width=True
     )
 
-    st.markdown('</div>', unsafe_allow_html=True)
-
 # ================= CARDS =================
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("""
-<div class="card">
-    <div class="card-title">Achievements</div>
+    st.markdown('<div class="card">', unsafe_allow_html=True)
 
-    <p class="card-text">
-        Students participate in olympiads,
-        competitions and creative projects.
-    </p>
-</div>
-""", unsafe_allow_html=True)
+    st.subheader("Achievements")
+
+    st.write(
+        "Students participate in olympiads, competitions and creative projects."
+    )
+
+    st.markdown('</div>', unsafe_allow_html=True)
+
 
 with col2:
-    st.markdown("""
-<div class="card">
-    <div class="card-title">Achievements</div>
+    st.markdown('<div class="card">', unsafe_allow_html=True)
 
-    <p class="card-text">
-        Students participate in olympiads,
-        competitions and creative projects.
-    </p>
-</div>
-""", unsafe_allow_html=True)
+    st.subheader("Achievements")
+
+    st.write(
+        "Students participate in olympiads, competitions and creative projects."
+    )
+
+    st.markdown('</div>', unsafe_allow_html=True)
+
 
 with col3:
-    st.markdown("""
-<div class="card">
-    <div class="card-title">Achievements</div>
+    st.markdown('<div class="card">', unsafe_allow_html=True)
 
-    <p class="card-text">
-        Students participate in olympiads,
-        competitions and creative projects.
-    </p>
-</div>
-""", unsafe_allow_html=True)
+    st.subheader("Achievements")
+
+    st.write(
+        "Students participate in olympiads, competitions and creative projects."
+    )
+
+    st.markdown('</div>', unsafe_allow_html=True)
 
 # ================= ABOUT =================
 st.markdown("""
