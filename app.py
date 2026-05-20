@@ -40,8 +40,7 @@ img:hover {
 
 
 .stApp {
-    background: linear-gradient(135deg, #eef5eb, #dcebdd);
-    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#dfeee3 0%,#cfe3d5 45%, #b9d1bf 100%);
 }
 
 .block-container {
@@ -80,7 +79,7 @@ img:hover {
 
 /* NAVBAR */
 .navbar {
-    background: rgba(255,255,255,0.2);
+    background: rgba(214, 234, 220, 0.4);
     backdrop-filter: blur(14px);
 
     border-radius: 20px;
@@ -105,7 +104,7 @@ img:hover {
 
 /* HERO */
 .hero {
-    background: rgba(255,255,255,0.22);
+    background: rgba(214, 234, 220, 0.5);
     backdrop-filter: blur(15px);
 
     padding: 60px;
@@ -138,8 +137,8 @@ img:hover {
 
 /* CARDS */
 .card {
-    background: rgba(255,255,255,0.22);
-
+    background: rgba(214, 234, 220, 0.45);
+    min-height: 230px;
     backdrop-filter: blur(14px);
 
     border-radius: 25px;
@@ -217,39 +216,37 @@ with right:
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-
-    st.subheader("Achievements")
-
-    st.write(
-        "Students participate in olympiads, competitions and creative projects."
-    )
-
-    st.markdown('</div>', unsafe_allow_html=True)
-
+    st.markdown("""
+    <div class="card">
+        <h3>Achievements</h3>
+        <p>
+        Students participate in olympiads,
+        competitions and creative projects.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col2:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-
-    st.subheader("Achievements")
-
-    st.write(
-        "Students participate in olympiads, competitions and creative projects."
-    )
-
-    st.markdown('</div>', unsafe_allow_html=True)
-
+    st.markdown("""
+    <div class="card">
+        <h3>School Life</h3>
+        <p>
+        Events, sports, clubs and unforgettable
+        memories every year.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
 with col3:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-
-    st.subheader("Achievements")
-
-    st.write(
-        "Students participate in olympiads, competitions and creative projects."
-    )
-
-    st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown("""
+    <div class="card">
+        <h3>Teachers</h3>
+        <p>
+        Experienced teachers supporting every
+        student’s growth.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
 # ================= ABOUT =================
 st.markdown("""
