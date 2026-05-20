@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Green School",
-    layout="wide",
+    page_title="Green Future School",
+    layout="wide"
 )
 
 # ---------- CSS ----------
@@ -14,8 +14,9 @@ st.markdown("""
     font-family: 'Segoe UI', sans-serif;
 }
 
-st.markdown("""
-<style>
+.block-container {
+    padding-top: 2rem;
+}
 
 /* HERO */
 .hero {
@@ -28,9 +29,6 @@ st.markdown("""
     margin-top: 20px;
 }
 
-</style>
-""", unsafe_allow_html=True)
-
 /* TITLE */
 .title {
     font-size: 56px;
@@ -38,6 +36,7 @@ st.markdown("""
     color: #2F3E34;
 }
 
+/* SUBTITLE */
 .subtitle {
     font-size: 20px;
     color: #5E6E63;
