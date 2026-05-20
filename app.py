@@ -167,17 +167,17 @@ left, right = st.columns([1.2, 1])
 
 with left:
     st.markdown("""
-    <div class="hero">
-        <div class="title">
-            Green Future School
-        </div>
-
-        <div class="subtitle">
-            Modern education for a new generation
-            with creativity, innovation and technology.
-        </div>
+<div class="hero">
+    <div class="title">
+        Green Future School
     </div>
-    """, unsafe_allow_html=True)
+
+    <p class="subtitle">
+        Modern education for a new generation
+        with creativity, innovation and technology.
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
 with right:
     st.markdown('<div class="hero-img">', unsafe_allow_html=True)
@@ -194,39 +194,39 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
-    <div class="card">
-        <div class="card-title">Achievements</div>
+<div class="card">
+    <div class="card-title">Achievements</div>
 
-        <div class="card-text">
-            Students participate in olympiads,
-            competitions and creative projects.
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    <p class="card-text">
+        Students participate in olympiads,
+        competitions and creative projects.
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
-    <div class="card">
-        <div class="card-title">School Life</div>
+<div class="card">
+    <div class="card-title">Achievements</div>
 
-        <div class="card-text">
-            Events, sports, clubs and unforgettable
-            memories every year.
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    <p class="card-text">
+        Students participate in olympiads,
+        competitions and creative projects.
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
 with col3:
     st.markdown("""
-    <div class="card">
-        <div class="card-title">Teachers</div>
+<div class="card">
+    <div class="card-title">Achievements</div>
 
-        <div class="card-text">
-            Experienced teachers supporting every
-            student’s growth.
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    <p class="card-text">
+        Students participate in olympiads,
+        competitions and creative projects.
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
 # ================= ABOUT =================
 st.markdown("""
