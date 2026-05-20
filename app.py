@@ -14,6 +14,9 @@ st.markdown("""
     font-family: 'Segoe UI', sans-serif;
 }
 
+st.markdown("""
+<style>
+
 /* HERO */
 .hero {
     background: rgba(255,255,255,0.25);
@@ -24,6 +27,9 @@ st.markdown("""
     box-shadow: 0 8px 32px rgba(0,0,0,0.08);
     margin-top: 20px;
 }
+
+</style>
+""", unsafe_allow_html=True)
 
 /* TITLE */
 .title {
