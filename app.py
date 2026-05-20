@@ -6,8 +6,38 @@ st.set_page_config(
 )
 
 # ================= CSS =================
+
 st.markdown("""
 <style>
+/* STREAMLIT TEXT FIX */
+
+h1 {
+    color: #2F3E34 !important;
+    font-size: 58px !important;
+}
+
+h3 {
+    color: #2F3E34 !important;
+}
+
+p {
+    color: #5E6E63 !important;
+    font-size: 18px !important;
+    line-height: 1.7 !important;
+}
+
+[data-testid="stMarkdownContainer"] {
+    color: #5E6E63;
+}
+
+img {
+    border-radius: 30px;
+}
+img:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
 
 .stApp {
     background: linear-gradient(135deg, #eef5eb, #dcebdd);
